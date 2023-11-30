@@ -1,0 +1,87 @@
+.br__res{
+  display: none;
+}
+
+.contact{
+  margin: 0 auto;
+  margin-top: 35vw;
+  width: 65%;
+  h1{
+    font-size: 4.1vw;
+    text-align: center;
+    font-family: "LiSong Pro";
+    margin-bottom: 7vw;
+  }
+  .contact__text{
+    margin-bottom: 6vw;
+    font-size: 1.7vw;
+    font-family: "Nanum Gothic";
+  }
+  .form{
+    form{
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 3vw;
+        p{
+          font-family: "Nanum Gothic";
+          font-size: 1.5vw;
+        }
+        input{
+          width: 40vw;
+          border-radius: 1.5vw;
+          height: 1vw;
+          padding: 1vw;
+          font-size: 1.2vw;
+          border: 1px solid white;
+        }
+        textarea{
+          width: 40vw;
+          border-radius: 1.5vw;
+          padding: 1vw;
+          font-size: 1.2vw;
+          border: 1px solid white;
+
+        }
+      }
+      .form__textarea{
+        align-items: flex-start;
+      }
+      .submit{
+        justify-content: center;
+        margin-top: 6vw;
+        .submit__content{
+          text-align: center;
+          width: 20vw;
+          height: 6vw;
+          border-radius: 1vw;
+          font-size: 2vw;
+          background-color: #111;
+          color: #fff;
+          font-family: "Songti SC";
+        }
+      }
+    }
+  }
+}
+
+.confirm{
+  margin-top: 0vw;
+  h1{
+    font-size: 6vw;
+    text-align: center;
+    font-family: "STKaiti";
+    margin-bottom: 7vw;
+  }
+}
+
+footer{
+  margin-top: 10vw;
+  margin-bottom: 1vw;
+  p{
+    text-align: center;
+    font-size: 1.3vw;
+    margin: 0;
+  }
+}
